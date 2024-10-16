@@ -12,6 +12,7 @@ module ChatApp
     config.load_defaults 7.0
     config.i18n.default_locale = :ja
     config.time_zone = 'Tokyo'
+    config.active_storage.variant_processor = :mini_magick  #画像処理にミニマジックを使用するために記入するコード
 
     # Configuration for the application, engines, and railties goes here.
     #
